@@ -1,0 +1,15 @@
+{
+  "name": "todos-env-node",
+  "version": "1.0.0",
+  "main": "dist/env-node.js",
+  "types": "dist/env-node.d.ts",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "dotenv-expand": "^10.0.0",
+    "todos-env": "1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

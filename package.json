@@ -1,0 +1,10 @@
+{
+    "private": true,
+    "workspaces": [
+        "todos/env",
+        "todos/env-node",
+        "todos/backend",
+        "todos/web",
+        "todos/testing"
+    ]
+}

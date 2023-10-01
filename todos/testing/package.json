@@ -1,0 +1,21 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "backend": "tsx src/test_backend.ts",
+    "backend_add": "tsx src/test_backend_add.ts",
+    "backend_complete": "tsx src/test_backend_complete.ts",
+    "db": "tsx src/test_db.ts",
+    "todos-env-node": "1.0.0",
+    "todos-backend": "1.0.0"
+  },
+  "devDependencies": {
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@trpc/client": "^10.38.5"
+  }
+}
