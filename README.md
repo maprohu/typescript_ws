@@ -19,6 +19,6 @@ yarn --cwd todos/backend start
 
 ```
 cd typescript_ws
-yarn --cwd todos/web dev
+yarn --cwd todos/web start
 ```
 
