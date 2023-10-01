@@ -1,8 +1,8 @@
 import * as zg from 'zapatos/generate';
-import { databaseUrl } from 'todos-env';
+import { todosEnv } from 'todos-env-node';
 
 const zapCfg: zg.Config = {
-  db: { connectionString: databaseUrl },
+  db: { connectionString: todosEnv.databaseUrl() },
   outDir: __dirname + '/../src',
   schemas: {
     "public": {

@@ -1,7 +1,7 @@
 import { publicProcedure, router } from './trpc';
 import * as db from 'zapatos/db';
 import { createDatabasePool } from './pg_pool';
-import { todosEnv } from './env';
+import { todosEnv } from 'todos-env-node';
 import { z } from 'zod';
 
 const databasePool = createDatabasePool(todosEnv.databaseUrl());
