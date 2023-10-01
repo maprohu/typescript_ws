@@ -6,7 +6,6 @@ import { todosEnvFromGetter, trpcPath } from 'todos-env';
 export function trpc(envGetter: EnvGetter) {
   const env = todosEnvFromGetter(envGetter);
   const url =  `http://${env.backendHost()}:${env.backendPort()}${trpcPath}`;
-  console.log(url);
   return createTRPCProxyClient<AppRouter>({
     links: [
       httpBatchLink({
